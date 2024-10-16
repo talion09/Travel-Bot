@@ -1,0 +1,36 @@
+version: "3.1"
+
+services:
+  db:
+    container_name: db_orientir
+    image: sameersbn/postgresql:10-2
+    environment:
+      PG_PASSWORD: $DB_PASS
+    restart: always
+    ports:
+      - "5433:5432"
+    networks:
+      - botnet
+    volumes:
+      - ./postgres:/var/lib/postgresql
+    env_file:
+      - ".env"
+
+  tgbot:
+    container_name: bot_orientir
+    build:
+      context: .
+    command: python bot.py
+    restart: always
+    networks:
+      - botnet
+    env_file:
+      - ".env"
+    volumes:
+      - .:/src
+    depends_on:
+      - db
+
+networks:
+  botnet:
+    driver: bridge

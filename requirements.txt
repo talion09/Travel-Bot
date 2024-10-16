@@ -1,0 +1,4 @@
+environs==9.5.0
+asyncpg~=0.25.0
+aiogram==2.22.1
+requests==2.32.3

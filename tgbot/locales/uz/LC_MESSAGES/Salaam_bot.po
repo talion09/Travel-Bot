@@ -1,0 +1,149 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-09-02 05:52+0500\n"
+"PO-Revision-Date: 2024-09-02 05:54+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/custom.py:29
+msgid "Имя"
+msgstr "Ism"
+
+#: handlers/users/custom.py:30
+msgid "Номер телефона"
+msgstr "Telefon raqam"
+
+#: handlers/users/custom.py:31
+msgid "Язык"
+msgstr "Til"
+
+#: handlers/users/custom.py:32 handlers/users/flights.py:159
+#: handlers/users/flights.py:177 handlers/users/flights.py:234
+#: handlers/users/flights.py:266
+msgid "Назад"
+msgstr "Orqaga"
+
+#: handlers/users/custom.py:43 handlers/users/custom.py:82
+msgid "Введите Ваше Имя:"
+msgstr "Ismgizni kiriting:"
+
+#: handlers/users/custom.py:50 handlers/users/custom.py:119
+msgid "Отправьте ваш номер телефона (+998xxxxxxxxx):"
+msgstr "Telefon raqamingizni yuboring (+998xxxxxxxxx):"
+
+#: handlers/users/custom.py:61 handlers/users/custom.py:79
+#: handlers/users/custom.py:115 handlers/users/custom.py:151
+msgid "Отменить"
+msgstr "Bekor qilish"
+
+#: handlers/users/custom.py:66 handlers/users/custom.py:153
+msgid "Выберите язык:"
+msgstr "Tilni tanlang:"
+
+#: handlers/users/custom.py:80 handlers/users/custom.py:116
+#: handlers/users/custom.py:152
+msgid "Изменение отменено"
+msgstr "O'zgartirish bekor qilindi"
+
+#: handlers/users/custom.py:81 handlers/users/custom.py:103
+#: handlers/users/custom.py:117
+msgid "Успешно изменено"
+msgstr "Muvaffaqiyatli o'zgartirildi"
+
+#: handlers/users/custom.py:118
+msgid "📞 Отправить Мой контакт"
+msgstr "📞 Kontaktimni yuborish"
+
+#: handlers/users/flights.py:158
+msgid "Выберите город отправления"
+msgstr "Ketish shahrini tanlang"
+
+#: handlers/users/flights.py:176 handlers/users/flights.py:313
+msgid "Выберите даты"
+msgstr "Sanalarni tanlang"
+
+#: handlers/users/flights.py:231
+msgid "Экономический"
+msgstr "Qulay"
+
+#: handlers/users/flights.py:232
+msgid "Стандартный"
+msgstr "Standart"
+
+#: handlers/users/flights.py:233
+msgid "VIP"
+msgstr "LUX"
+
+#: handlers/users/flights.py:235
+msgid "Выберите тариф"
+msgstr "Tarifni tanlang"
+
+#: handlers/users/flights.py:267
+msgid "Забронировать на эту дату?"
+msgstr "Bu sana uchun band qilasizmi?"
+
+#: handlers/users/flights.py:268
+msgid "Забронировать"
+msgstr "Band qilish"
+
+#: handlers/users/flights.py:293
+msgid "Спасибо за бронирование на эту дату! Ожидайте звонка"
+msgstr "Ushbu sanani band qilganingiz uchun tashakkur! Qo'ng'iroqni kuting"
+
+#: handlers/users/flights.py:300
+msgid ""
+"Имя: {},\n"
+"Телефон: {},\n"
+"Язык: {},\n"
+"Бронь на {}.{}.{} года. В городе {}"
+msgstr ""
+"Nomi: {},\n"
+"Telefon: {},\n"
+"Til: {},\n"
+"{}.{}.{} yilga bandlov. Shaharda {}"
+
+#: handlers/users/referal_system.py:18
+msgid "Главное меню"
+msgstr "Asosiy menyu"
+
+#: handlers/users/referal_system.py:19
+msgid ""
+"{} вы имеете {} рефералов\n"
+"Вот твоя реферальная ссылка: {}"
+msgstr ""
+"{} sizda {} ta murojaat bor\n"
+"Mana bu havola: {}"
+
+#: handlers/users/start.py:53
+msgid "Вы были приглашены пользователем {}"
+msgstr "Sizni {} taklif qilgan"
+
+#: handlers/users/start.py:54
+msgid "Вы пригласили {}\n"
+msgstr "Sizni taklif qildiz {}\n"
+
+#: handlers/users/start.py:58
+msgid "<b>Вы уже приглашены другим пользователем!</b>"
+msgstr "<b>Siz allaqachon boshqa foydalanuvchi tomonidan taklif qilingansiz!</b>"
+
+#: handlers/users/start.py:61
+msgid "<b>Нельзя переходить по своей реферальной ссылке!</b>"
+msgstr "<b>Siz o'z havolangizga amal qila olmaysiz!</b>"
+
+#: handlers/users/start.py:64
+msgid "<b>Ссылка не действительна!</b>"
+msgstr "<b>Ma'lumotlar bazasida bunday foydalanuvchi yo'q!</b>"
+

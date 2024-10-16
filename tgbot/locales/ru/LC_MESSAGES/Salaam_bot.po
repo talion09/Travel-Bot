@@ -1,0 +1,150 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-09-02 05:52+0500\n"
+"PO-Revision-Date: 2024-09-02 05:54+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/custom.py:29
+msgid "Имя"
+msgstr "Исм"
+
+#: handlers/users/custom.py:30
+msgid "Номер телефона"
+msgstr "Телефон рақам"
+
+#: handlers/users/custom.py:31
+msgid "Язык"
+msgstr "Тил"
+
+#: handlers/users/custom.py:32 handlers/users/flights.py:159
+#: handlers/users/flights.py:177 handlers/users/flights.py:234
+#: handlers/users/flights.py:266
+msgid "Назад"
+msgstr "Орқага"
+
+#: handlers/users/custom.py:43 handlers/users/custom.py:82
+msgid "Введите Ваше Имя:"
+msgstr "Исмгизни киритинг:"
+
+#: handlers/users/custom.py:50 handlers/users/custom.py:119
+msgid "Отправьте ваш номер телефона (+998xxxxxxxxx):"
+msgstr "Телефон рақамингизни юборинг (+998ххххххххх):"
+
+#: handlers/users/custom.py:61 handlers/users/custom.py:79
+#: handlers/users/custom.py:115 handlers/users/custom.py:151
+msgid "Отменить"
+msgstr "Бекор қилиш:"
+
+#: handlers/users/custom.py:66 handlers/users/custom.py:153
+msgid "Выберите язык:"
+msgstr "Тилни танланг:"
+
+#: handlers/users/custom.py:80 handlers/users/custom.py:116
+#: handlers/users/custom.py:152
+msgid "Изменение отменено"
+msgstr "Ўзгартириш бекор қилинди"
+
+#: handlers/users/custom.py:81 handlers/users/custom.py:103
+#: handlers/users/custom.py:117
+msgid "Успешно изменено"
+msgstr "Муваффақиятли ўзгартирилди"
+
+#: handlers/users/custom.py:118
+msgid "📞 Отправить Мой контакт"
+msgstr "📞 Контактимни юбориш"
+
+#: handlers/users/flights.py:158
+msgid "Выберите город отправления"
+msgstr "Кетиш шаҳрини танланг"
+
+#: handlers/users/flights.py:176 handlers/users/flights.py:313
+msgid "Выберите даты"
+msgstr "Саналарни танланг"
+
+#: handlers/users/flights.py:231
+msgid "Экономический"
+msgstr "Қулай"
+
+#: handlers/users/flights.py:232
+msgid "Стандартный"
+msgstr "Стандарт"
+
+#: handlers/users/flights.py:233
+msgid "VIP"
+msgstr "ЛЮКС"
+
+#: handlers/users/flights.py:235
+msgid "Выберите тариф"
+msgstr "Тарифни танланг"
+
+#: handlers/users/flights.py:267
+msgid "Забронировать на эту дату?"
+msgstr "Бу сана учун банд қиласизми?"
+
+#: handlers/users/flights.py:268
+msgid "Забронировать"
+msgstr "Банд қилиш"
+
+#: handlers/users/flights.py:293
+msgid "Спасибо за бронирование на эту дату! Ожидайте звонка"
+msgstr "Ушбу санани банд қилганингиз учун ташаккур! Қўнғироқни кутинг"
+
+#: handlers/users/flights.py:300
+msgid ""
+"Имя: {},\n"
+"Телефон: {},\n"
+"Язык: {},\n"
+"Бронь на {}.{}.{} года. В городе {}"
+msgstr ""
+"Номи: {},\n"
+"Телефон: {},\n"
+"Тил: {},\n"
+"{}.{}.{} йилга бандлов. Шаҳарда {}"
+
+#: handlers/users/referal_system.py:18
+msgid "Главное меню"
+msgstr "Асосий меню"
+
+#: handlers/users/referal_system.py:19
+msgid ""
+"{} вы имеете {} рефералов\n"
+"Вот твоя реферальная ссылка: {}"
+msgstr ""
+"{} сизда {} та мурожаат бор\n"
+"Мана бу ҳавола: {}"
+
+#: handlers/users/start.py:53
+msgid "Вы были приглашены пользователем {}"
+msgstr "Сизни {} таклиф қилган"
+
+#: handlers/users/start.py:54
+msgid "Вы пригласили {}\n"
+msgstr "Сиз таклиф қилдиз {}\n"
+
+#: handlers/users/start.py:58
+msgid "<b>Вы уже приглашены другим пользователем!</b>"
+msgstr "<b>Сиз аллақачон бошқа фойдаланувчи томонидан таклиф қилингансиз!</b>"
+
+#: handlers/users/start.py:61
+msgid "<b>Нельзя переходить по своей реферальной ссылке!</b>"
+msgstr "<b>Сиз ўз ҳаволангизга амал қила олмайсиз!</b>"
+
+#: handlers/users/start.py:64
+msgid "<b>Ссылка не действительна!</b>"
+msgstr "<b>Маълумотлар базасида бундай фойдаланувчи йўқ!</b>"
+
